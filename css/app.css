@@ -1,0 +1,22 @@
+p, h1, h2, h4, h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-image: url(/img/1249221139.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 5em
+}
+.overlay{
+    background-color: black;
+    opacity: 0.9;
+    color: white
+}
+
+.bottom{
+    color: white;
+    background: #2F3F73;
+}
+hr{
+    width: 70%;
+}
