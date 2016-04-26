@@ -48,10 +48,10 @@
   </div>
 <div class="extended">
 <div class="extended header overlay">
-  <div class="row">
+  <div class="row wow bounceInDown center span3"  data-wow-iteration="1" data-wow-duration="3.15s">
     <div class="column small-12 text-center">
       <h1>What risk would you take if you knew you could not fail?</h1>
-      <h3>Find your uniqueness and your path by asking yourself the right questions.</h3>
+      <h3 class="wow bounceInDown center span3"  data-wow-iteration="1" data-wow-duration="5.15s">Find your uniqueness and your path by asking yourself the right questions.</h3>
     </div>
   </div>
   </div>
@@ -62,15 +62,15 @@
     <div class="row text-center">
       <div class="column small-12 medium-6">
         <img src="img/1444470260.png">
-        <h3>Are you student or graduate?</h3>
-        <p>Yusudi is a life skills development program. As our trainee, you will understand your unique professional value, combine it with the necessary business skills to grow your career as an employee or an entrepreneur. You will become an agent of change, who can build the local, national and international society.</p>
+        <h3 class="wow bounceInDown center span3"  data-wow-iteration="1" data-wow-duration="3s">Are you student or graduate?</h3>
+        <p class="wow bounceInDown center span3"  data-wow-iteration="1" data-wow-duration="4s">Yusudi is a life skills development program. As our trainee, you will understand your unique professional value, combine it with the necessary business skills to grow your career as an employee or an entrepreneur. You will become an agent of change, who can build the local, national and international society.</p>
         <a class="button" href="#">Learn more</a>
 
       </div>
       <div class="column small-12 medium-6">
         <img src="img/1444470311.png">
-        <h3>Are you representing a company?</h3>
-        <p>We see opportunities in the untapped pool of youth talent and turn them into solutions for our partners. We serve companies interested in engaging youth to grow their business through our internship programs. Our program includes interns pre-selection, training, and mentorship during and after the internships. Become a Yusudi partner and enjoy the benefits of accessing youth talent.</p>
+        <h3 class="wow bounceInDown center span3" data-wow-offset="10" data-wow-iteration="1" data-wow-duration="5s">Are you representing a company?</h3>
+        <p class="wow bounceInDown center span3"  data-wow-iteration="1" data-wow-duration="6s">We see opportunities in the untapped pool of youth talent and turn them into solutions for our partners. We serve companies interested in engaging youth to grow their business through our internship programs. Our program includes interns pre-selection, training, and mentorship during and after the internships. Become a Yusudi partner and enjoy the benefits of accessing youth talent.</p>
         <a class="button" href="#">Learn more</a>
       </div>
     </div>
@@ -128,7 +128,10 @@
 
 
   </div>
+ <section class="wow slideInLeft" data-wow-offset="10"  data-wow-iteration="10">
+    FSJDHSVDSVDSVDNVSDNMV
 
+    </section>
 
 
 
@@ -138,6 +141,31 @@
   <script src="js/vendor/foundation.js"></script>
     <!--====wow script for use with animate css======-->
     <script src="/js/wow.js"></script>
+    <script>
+    var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null // optional scroll container selector, otherwise use window
+  }
+);
+wow.init();
+
+    </script>
+
+
+
+
+
+
+
 
   <script src="js/app.js"></script>
 </body>
