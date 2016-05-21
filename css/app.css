@@ -9,7 +9,7 @@ p, h1, h2, h4, h5,h6{
     background-image: url(/img/1249221139.jpg);
     background-position: center;
     background-size: cover;
-    padding: 10em
+    padding: 10em 0 10em 0
 }
 .overlay{
     background-color: purple;
