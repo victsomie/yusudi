@@ -3,7 +3,7 @@ p, h1, h2, h4, h5,h6{
 
 }
 .full_height{
-    height: 90%
+    min-height: 90%
 }
 .header{
     background-image: url(/img/1249221139.jpg);
